@@ -1,0 +1,32 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           808                                         |
+|  Number of clauses:            4649                                         |
+|  Parse time:                   0.00 s                                       |
+|  Eliminated clauses:           0.01 Mb                                      |
+|  Simplification time:          0.00 s                                       |
+|                                                                             |
+=============================[ Search Statistics ]==============================
+| Conflicts  |          ORIGINAL         |          LEARNT          | Progress |
+|            |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+================================================================================
+|        100 |     635     4183    12967 |     1533      100     22 |  6.438 % |
+|        250 |     635     4183    12967 |     1687      250     21 |  6.436 % |
+|        475 |     635     4183    12967 |     1855      475     21 |  6.437 % |
+|        812 |     635     4183    12967 |     2041      812     19 |  6.437 % |
+|       1318 |     635     4183    12967 |     2245     1318     18 |  6.437 % |
+|       2077 |     635     4183    12967 |     2470     2077     17 |  6.437 % |
+|       3216 |     635     4183    12967 |     2717     1925     14 |  6.437 % |
+|       4924 |     635     4183    12967 |     2988     2218     13 |  6.437 % |
+|       7486 |     635     4183    12967 |     3287     1685     12 |  6.437 % |
+===============================================================================
+restarts              : 34
+conflicts             : 8407           (26032 /sec)
+decisions             : 10116          (0.00 % random) (31324 /sec)
+propagations          : 1814151        (5617436 /sec)
+conflict literals     : 119699         (60.64 % deleted)
+Memory used           : 8.00 MB
+CPU time              : 0.32295 s
+
+SATISFIABLE

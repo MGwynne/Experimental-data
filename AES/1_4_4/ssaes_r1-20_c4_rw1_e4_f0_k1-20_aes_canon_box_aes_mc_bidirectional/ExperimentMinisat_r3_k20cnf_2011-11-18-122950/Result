@@ -1,0 +1,30 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           504                                         |
+|  Number of clauses:            2815                                         |
+|  Parse time:                   0.00 s                                       |
+|  Eliminated clauses:           0.00 Mb                                      |
+|  Simplification time:          0.00 s                                       |
+|                                                                             |
+=============================[ Search Statistics ]==============================
+| Conflicts  |          ORIGINAL         |          LEARNT          | Progress |
+|            |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+================================================================================
+|        100 |     381     2497     7729 |      915      100     21 |  8.737 % |
+|        250 |     381     2497     7729 |     1007      250     25 |  8.731 % |
+|        475 |     381     2497     7729 |     1107      475     23 |  8.733 % |
+|        812 |     381     2497     7729 |     1218      812     22 |  8.733 % |
+|       1318 |     381     2497     7729 |     1340      664     19 |  8.733 % |
+|       2077 |     381     2497     7729 |     1474     1423     20 |  8.733 % |
+|       3216 |     381     2497     7729 |     1621      993     16 |  8.734 % |
+===============================================================================
+restarts              : 17
+conflicts             : 3331           (39194 /sec)
+decisions             : 4152           (0.00 % random) (48855 /sec)
+propagations          : 413667         (4867415 /sec)
+conflict literals     : 68863          (34.77 % deleted)
+Memory used           : 8.00 MB
+CPU time              : 0.084987 s
+
+SATISFIABLE
