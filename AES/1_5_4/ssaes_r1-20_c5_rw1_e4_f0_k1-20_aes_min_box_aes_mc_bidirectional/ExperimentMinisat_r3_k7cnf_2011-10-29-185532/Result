@@ -1,0 +1,30 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           324                                         |
+|  Number of clauses:            1196                                         |
+|  Parse time:                   0.00 s                                       |
+|  Eliminated clauses:           0.00 Mb                                      |
+|  Simplification time:          0.00 s                                       |
+|                                                                             |
+=============================[ Search Statistics ]==============================
+| Conflicts  |          ORIGINAL         |          LEARNT          | Progress |
+|            |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+================================================================================
+|        100 |     192      836     2756 |      306      100     10 | 16.051 % |
+|        250 |     192      836     2756 |      337      250     12 | 16.050 % |
+|        475 |     192      836     2756 |      370      273     10 | 16.050 % |
+|        812 |     192      836     2756 |      407      394     10 | 16.050 % |
+|       1318 |     192      836     2756 |      448      434      9 | 16.050 % |
+|       2077 |     192      836     2756 |      493      418      8 | 16.050 % |
+|       3216 |     192      836     2756 |      543      425      7 | 16.050 % |
+===============================================================================
+restarts              : 26
+conflicts             : 4823           (74211 /sec)
+decisions             : 5593           (0.00 % random) (86059 /sec)
+propagations          : 299397         (4606816 /sec)
+conflict literals     : 56435          (26.54 % deleted)
+Memory used           : 8.00 MB
+CPU time              : 0.06499 s
+
+SATISFIABLE
