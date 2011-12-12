@@ -1,0 +1,24 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:           128                                         |
+|  Number of clauses:           13450                                         |
+|  Parse time:                   0.00 s                                       |
+|  Eliminated clauses:           0.00 Mb                                      |
+|  Simplification time:          0.44 s                                       |
+|                                                                             |
+=============================[ Search Statistics ]==============================
+| Conflicts  |          ORIGINAL         |          LEARNT          | Progress |
+|            |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+================================================================================
+|        100 |      56    13290    90580 |     4873      100      6 | 31.268 % |
+===============================================================================
+restarts              : 2
+conflicts             : 129            (282 /sec)
+decisions             : 144            (0.00 % random) (315 /sec)
+propagations          : 3127           (6843 /sec)
+conflict literals     : 827            (45.56 % deleted)
+Memory used           : 9.00 MB
+CPU time              : 0.45693 s
+
+SATISFIABLE

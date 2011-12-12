@@ -1,0 +1,5 @@
+Begin: Thu Nov 10 16:16:30 GMT 2011
+Process id = 22818
+  PID TTY      STAT   TIME COMMAND
+22818 pts/1    SN+    3:47 /bin/bash /compsci/jupiter/ugrad/ugrad07/cs360678/OKlibMG/OKplatform/bin/RunMinisat r6_k20.cnf
+Completed: Thu Nov 10 16:20:19 GMT 2011

@@ -1,0 +1,30 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:         13616                                         |
+|  Number of clauses:          212080                                         |
+|  Parse time:                   0.08 s                                       |
+|  Eliminated clauses:           0.01 Mb                                      |
+|  Simplification time:          0.26 s                                       |
+|                                                                             |
+=============================[ Search Statistics ]==============================
+| Conflicts  |          ORIGINAL         |          LEARNT          | Progress |
+|            |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+================================================================================
+|        100 |   13184   210960   620416 |    77352      100    181 |  1.175 % |
+|        250 |   13184   210960   620416 |    85087      250     80 |  1.175 % |
+|        475 |   13184   210960   620416 |    93595      475     48 |  1.175 % |
+|        812 |   13184   210960   620416 |   102955      812     50 |  1.175 % |
+|       1318 |   13184   210960   620416 |   113251     1318     42 |  1.175 % |
+|       2077 |   13184   210960   620416 |   124576     2077     38 |  1.175 % |
+|       3216 |   13184   210960   620416 |   137033     3216     37 |  1.175 % |
+===============================================================================
+restarts              : 16
+conflicts             : 3221           (832 /sec)
+decisions             : 7085           (0.00 % random) (1831 /sec)
+propagations          : 33263227       (8594236 /sec)
+conflict literals     : 118969         (93.25 % deleted)
+Memory used           : 22.00 MB
+CPU time              : 3.87041 s
+
+SATISFIABLE
