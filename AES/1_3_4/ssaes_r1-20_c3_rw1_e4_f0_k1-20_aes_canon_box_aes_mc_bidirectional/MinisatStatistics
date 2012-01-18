@@ -1,3 +1,6 @@
+# Generated in OKlibrary version 0.1.0.16, commit 3feb28fbe6f57c2b738c9cfed85b47a47e5c8256, date 2011-12-11
+# For instructions on generation, see "Minisat-2.2.0" in Investigations/Cryptography/AdvancedEncryptionStandard/plans/KeyDiscovery/012/1_3_4/general.hpp
+# in the OKlibrary.
 n c l t sat cfs dec rts r1 mem ptime stime cfl r s 
 128 724 2000 0.002999 1 4 15 1 341 8.00 0.00 0.00 34 1 1 
 128 724 2000 0.001999 1 16 20 1 852 8.00 0.00 0.00 104 1 2 
